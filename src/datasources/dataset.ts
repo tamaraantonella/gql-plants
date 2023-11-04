@@ -10,19 +10,16 @@ export const plants = [
     id: '110ec58a-a0f2-4ac4-8393-c866d813b8d1',
     name: 'Ficus',
     family: 'Tree',
-    price: 100,
   },
   {
     id: '120ac59a-a0f2-4ac4-8393-c866d813b8d2',
     name: 'Tulip',
     family: 'Flower',
-    price: 10,
   },
   {
     id: '130bc60a-a0f2-4ac4-8393-c866d813b8d3',
     name: 'Rose',
     family: 'Flower',
-    price: 20,
   },
   {
     id: '140cd61a-a0f2-4ac4-8393-c866d813b8d4',
@@ -40,19 +37,16 @@ export const plants = [
     id: '160ef63a-a0f2-4ac4-8393-c866d813b8d6',
     name: 'Daisy',
     family: 'Flower',
-    price: 5,
   },
   {
     id: '170fg64a-a0f2-4ac4-8393-c866d813b8d7',
     name: 'Sunflower',
     family: 'Flower',
-    price: 15,
   },
   {
     id: '180gh65a-a0f2-4ac4-8393-c866d813b8d8',
     name: 'Orchid',
     family: 'Flower',
-    price: 25,
   },
   {
     id: '190hi66a-a0f2-4ac4-8393-c866d813b8d9',

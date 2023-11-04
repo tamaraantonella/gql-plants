@@ -1,3 +1,14 @@
-import { plants } from "../../datasources/dataset";
+import { Plant, plants } from '../../datasources/dataset';
 
-export const allPlants = () => plants;
+type AllPlantsArgs = {
+  price?: 'YES' | 'NO';
+};
+
+export const allPlants = (root: Plant, args: AllPlantsArgs) => {
+  if (!args.price) {
+    return plants;
+  }
+  return plants.filter((plant) =>
+    args.price === 'YES' ? plant.price : !plant.price
+  );
+};

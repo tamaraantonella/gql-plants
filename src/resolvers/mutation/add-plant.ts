@@ -9,7 +9,7 @@ type AddPlantArgs = {
   price: number;
 };
 
-export const addPlant = (root: Plant, args: AddPlantArgs) => {
+export const addPlant = (root: Plant, args: AddPlantArgs): Plant => {
   if (plants.find((plant) => plant.name === args.name))
     throw new GraphQLError('Plant already exists', {
       extensions: { code: ApolloServerErrorCode.BAD_USER_INPUT },
