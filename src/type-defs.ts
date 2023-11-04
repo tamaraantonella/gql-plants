@@ -3,15 +3,23 @@ import { startStandaloneServer } from '@apollo/server/standalone';
 
 export const typeDefs = `#graphql
 
+ type Family {
+    name: String!
+  }
+
   type Plant {
    id: ID!
    name: String!
-   type: String!
+   family: Family!
    price: Int!
   }
+
+
 
   type Query {
     plantCount: Int!
     allPlants: [Plant]!
+    findPlant(name: String!) : Plant
   }
+
 `;
