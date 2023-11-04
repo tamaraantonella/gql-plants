@@ -1,0 +1,58 @@
+{
+  "plants": [
+    {
+      "id": "110ec58a-a0f2-4ac4-8393-c866d813b8d1",
+      "name": "Ficus",
+      "family": "Tree"
+    },
+    {
+      "id": "120ac59a-a0f2-4ac4-8393-c866d813b8d2",
+      "name": "Tulip",
+      "family": "Flower"
+    },
+    {
+      "id": "130bc60a-a0f2-4ac4-8393-c866d813b8d3",
+      "name": "Rose",
+      "family": "Flower"
+    },
+    {
+      "id": "140cd61a-a0f2-4ac4-8393-c866d813b8d4",
+      "name": "Palm",
+      "family": "Tree",
+      "price": 200
+    },
+    {
+      "id": "150de62a-a0f2-4ac4-8393-c866d813b8d5",
+      "name": "Cactus",
+      "family": "Tree",
+      "price": 50
+    },
+    {
+      "id": "160ef63a-a0f2-4ac4-8393-c866d813b8d6",
+      "name": "Daisy",
+      "family": "Flower"
+    },
+    {
+      "id": "170fg64a-a0f2-4ac4-8393-c866d813b8d7",
+      "name": "Sunflower",
+      "family": "Flower"
+    },
+    {
+      "id": "180gh65a-a0f2-4ac4-8393-c866d813b8d8",
+      "name": "Orchid",
+      "family": "Flower"
+    },
+    {
+      "id": "190hi66a-a0f2-4ac4-8393-c866d813b8d9",
+      "name": "Pine",
+      "family": "Tree",
+      "price": 150
+    },
+    {
+      "id": "200ij67a-a0f2-4ac4-8393-c866d813b8d0",
+      "name": "Oak",
+      "family": "Tree",
+      "price": 175
+    }
+  ]
+}
