@@ -1,18 +1,9 @@
-import { Plant } from '../datasources/dataset';
-import { allPlants } from './all-plants';
-import { findPlant } from './find-plant';
-import { plantCount } from './plant-count';
+import { Mutation } from './mutation';
+import { Plant } from './plant';
+import { Query } from './query';
 
 export const resolvers = {
-  Query: {
-    plantCount,
-    allPlants,
-    findPlant,
-  },
-  Plant: {
-    family: (root: Plant) => {
-      if (!root) return null;
-      return { name: root.family };
-    },
-  },
+  Query,
+  Plant,
+  Mutation
 };

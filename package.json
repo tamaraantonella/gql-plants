@@ -4,18 +4,20 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "start": "node build/index.js",
+    "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
   },
   "repository": "git@github.com:tamaraantonella/gql-plants.git",
   "author": "tamif <tamarafrazzetta@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/uuid": "^9.0.6",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@apollo/server": "^4.9.5",
-    "graphql": "^16.8.1"
+    "graphql": "^16.8.1",
+    "uuid": "^9.0.1"
   }
 }

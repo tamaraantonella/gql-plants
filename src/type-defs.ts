@@ -14,12 +14,14 @@ export const typeDefs = `#graphql
    price: Int!
   }
 
-
-
   type Query {
     plantCount: Int!
     allPlants: [Plant]!
     findPlant(name: String!) : Plant
+  }
+
+  type Mutation {
+    addPlant(name: String!, family: String!, price: Int!): Plant
   }
 
 `;

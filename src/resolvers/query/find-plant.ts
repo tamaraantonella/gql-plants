@@ -1,7 +1,7 @@
-import { plants } from "../datasources/dataset";
+import { plants } from "../../datasources/dataset";
 
 type FindPlantArgs = {
-    name?: string;
+  name?: string;
 };
 
 export const findPlant = (root: unknown, args: FindPlantArgs) =>
